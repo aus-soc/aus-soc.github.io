@@ -28,6 +28,7 @@ function hero() {
         </Box>
         <Box>
             <Image src='/SocLogo.svg' width={500} height={500}>
+            
 
             </Image>
         </Box>
