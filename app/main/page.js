@@ -1,8 +1,9 @@
 import React from 'react'
+import Navbar from '@/components/navbar'
 
 function main() {
   return (
-    <div>Hellow WOrlddd</div>
+    <Navbar />
   )
 }
 
