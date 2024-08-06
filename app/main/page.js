@@ -1,16 +1,14 @@
 import React from 'react'
 import Navbar from '@/components/navbar'
+import Hero from '@/components/hero'
 import { Box, AppBar } from '@mui/material'
 
 function main() {
   return (
     <Box width="100vw" height="100vh" 
-    display="flex"
-    flexDirection={"column"}
-    justifyContent="space-between"
-    alignItems="start"
-    gap={2} className="bg-black">
+    gap={2} className="flex flex-col justify-start items-center bg-black overflow-x-hidden">
       <Navbar />
+      <Hero />
     </Box>
   )
 }
