@@ -2,9 +2,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import { Box, AppBar, Button, Toolbar, Tooltip, IconButton, Typography, MenuIcon, Container, Avatar, MenuItem } from '@mui/material'
-import AdbIcon from '@mui/icons-material/adb'
-import Menu from '@mui/icons-material/Menu'
-import App from 'next/app'
 import Image from 'next/image'
 
 function hero() {
@@ -28,7 +25,7 @@ function hero() {
         </Box>
         <Box>
             <Image src='/SocLogo.svg' width={500} height={500}>
-            
+
 
             </Image>
         </Box>

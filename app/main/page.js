@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '@/components/navbar'
 import Hero from '@/components/hero'
-import { Box, AppBar } from '@mui/material'
+import { Box} from '@mui/material'
 
 function main() {
   return (

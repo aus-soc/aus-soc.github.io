@@ -1,10 +1,6 @@
 'use client'
 import React from 'react'
-import { useState, useEffect } from 'react'
-import { Box, AppBar, Button, Toolbar, Tooltip, IconButton, Typography, MenuIcon, Container, Avatar, MenuItem } from '@mui/material'
-import AdbIcon from '@mui/icons-material/adb'
-import Menu from '@mui/icons-material/Menu'
-import App from 'next/app'
+import { AppBar, Typography } from '@mui/material'
 
 function navbar() {
     return (
