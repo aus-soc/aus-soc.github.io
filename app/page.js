@@ -1,8 +1,8 @@
 import React from 'react';
-import main from './main/page';
+import Main from './main/page';
 
 export default function Home() {
   return (
-    <main></main>
+    <Main></Main>
   );
 }
