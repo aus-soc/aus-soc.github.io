@@ -1,8 +1,7 @@
-'use client'
 import React from 'react'
 import { AppBar, Typography } from '@mui/material'
 
-function navbar() {
+function Navbar() {
     return (
         <AppBar position="static" className='bg-transparent flex justify-center flex-row gap-12 place-content-evenly py-8'>
             <a href='#events'><Typography className='font-bold'>Upcoming Events</Typography></a>
@@ -14,4 +13,4 @@ function navbar() {
     );
 }
 
-export default navbar
+export default Navbar
