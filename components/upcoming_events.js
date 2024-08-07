@@ -34,7 +34,7 @@ function CustomTabPanel(props) {
     };
   }
 
-function upcoming_events() {
+function Upcoming_events() {
     const [value, setValue] = useState(0);
 
   const handleChange = (event, newValue) => {
@@ -300,4 +300,4 @@ function upcoming_events() {
   )
 }
 
-export default upcoming_events
+export default Upcoming_events
