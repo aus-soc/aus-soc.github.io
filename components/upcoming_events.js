@@ -56,9 +56,11 @@ function upcoming_events() {
                 <div className="carousel carousel-center bg-gradient-radial from-slate-200 to-white rounded-box w-6/12 space-x-4 p-3 scroll-smooth ">
                     <div id='item1' className="card carousel-item glass w-96 scroll-smooth">
                         <figure className='h-96'>
-                            <img
+                            <Image
                             src="/lifeafterCS.svg"
-                            alt="car!" />
+                            height={500}
+                            width={500}
+                            alt="SOC Event" />
                         </figure>
                         <div className="card-body">
                             <div className="card-actions justify-start py-2 ">
@@ -76,7 +78,7 @@ function upcoming_events() {
                     </div>
                     <div id='item2' className="card carousel-item glass w-96 scroll-smooth">
                     <figure className='h-96'>
-                            <img
+                            <Image height={500} width={500}
                             src="/cyberweekly.svg"
                             alt="syberweekly" />
                         </figure>
@@ -97,9 +99,9 @@ function upcoming_events() {
                     </div>
                     <div id='item3' className="card carousel-item glass w-96 scroll-smooth">
                     <figure className='h-96'>
-                            <img
+                            <Image height={500} width={500}
                             src="/lifeafterCS.svg"
-                            alt="car!" />
+                            alt="SOC Event" />
                         </figure>
                         <div className="card-body">
                             <div className="card-actions justify-start py-2 ">
@@ -117,7 +119,7 @@ function upcoming_events() {
                     </div>
                     <div id='item4' className="card carousel-item glass w-96 scroll-smooth">
                     <figure className='h-96'>
-                            <img
+                            <Image height={500} width={500}
                             src="/cyberweekly.svg"
                             alt="syberweekly" />
                         </figure>
@@ -150,9 +152,9 @@ function upcoming_events() {
                 <div className="carousel carousel-center bg-white rounded-box w-6/12 space-x-4 p-3 scroll-smooth">
                     <div id='item1' className="card carousel-item glass w-96 scroll-smooth">
                         <figure className='h-96'>
-                            <img
+                            <Image height={500} width={500}
                             src="/lifeafterCS.svg"
-                            alt="car!" />
+                            alt="SOC Event" />
                         </figure>
                         <div className="card-body">
                             <div className="card-actions justify-start py-2 ">
@@ -170,9 +172,9 @@ function upcoming_events() {
                     </div>
                     <div id='item2' className="card carousel-item glass w-96 scroll-smooth">
                         <figure className='h-96'>
-                            <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                            alt="car!" />
+                            <Image height={500} width={500}
+                            src="/lifeafterCS.svg"
+                            alt="SOC Event" />
                         </figure>
                         <div className="card-body">
                             <div className="card-actions justify-start py-2 px-5">
@@ -189,9 +191,9 @@ function upcoming_events() {
                     </div>
                     <div id='item3' className="card carousel-item glass w-96 scroll-smooth">
                         <figure className='h-96'>
-                            <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                            alt="car!" />
+                            <Image height={500} width={500}
+                            src="/lifeafterCS.svg"
+                            alt="SOC Event" />
                         </figure>
                         <div className="card-body">
                             <div className="card-actions justify-start py-2 px-5">
@@ -208,9 +210,9 @@ function upcoming_events() {
                     </div>
                     <div id='item4' className="card carousel-item glass w-96 scroll-smooth">
                         <figure className='h-96'>
-                            <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                            alt="car!" />
+                            <Image height={500} width={500}
+                            src="/lifeafterCS.svg"
+                            alt="SOC Event" />
                         </figure>
                         <div className="card-body">
                             <div className="card-actions justify-start py-2 px-5">
@@ -227,9 +229,9 @@ function upcoming_events() {
                     </div>
                     <div id='item5' className="card carousel-item glass w-96 scroll-smooth">
                         <figure className='h-96'>
-                            <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                            alt="car!" />
+                            <Image height={500} width={500}
+                            src="/lifeafterCS.svg"
+                            alt="SOC Event" />
                         </figure>
                         <div className="card-body">
                             <div className="card-actions justify-start py-2 px-5">
@@ -246,9 +248,9 @@ function upcoming_events() {
                     </div>
                     <div id='item6' className="card carousel-item glass w-96 scroll-smooth">
                         <figure className='h-96'>
-                            <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                            alt="car!" />
+                            <Image height={500} width={500}
+                            src="/lifeafterCS.svg"
+                            alt="SOC Event" />
                         </figure>
                         <div className="card-body">
                             <div className="card-actions justify-start py-2 px-5">
@@ -265,9 +267,9 @@ function upcoming_events() {
                     </div>
                     <div id='item7' className="card carousel-item glass w-96 scroll-smooth">
                         <figure className='h-96'>
-                            <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                            alt="car!" />
+                            <Image height={500} width={500}
+                            src="/lifeafterCS.svg"
+                            alt="SOC Event" />
                         </figure>
                         <div className="card-body">
                             <div className="card-actions justify-start py-2 px-5">
