@@ -1,7 +1,11 @@
 import React from 'react'
 import Navbar from '@/components/navbar'
 import Hero from '@/components/hero'
-import { Box} from '@mui/material'
+import Upcoming from '@/components/upcoming_events'
+import About from '@/components/about'
+import { Box, Card} from '@mui/material'
+
+
 
 function main() {
   return (
@@ -9,6 +13,8 @@ function main() {
     gap={2} className="flex flex-col justify-start items-center bg-black overflow-x-hidden">
       <Navbar />
       <Hero />
+      <Upcoming />
+      <About />
     </Box>
   )
 }
