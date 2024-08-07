@@ -1,24 +1,28 @@
 'use client'
 import React, { useEffect, useState } from 'react';
-import Highcharts from 'highcharts';
-import HighchartsMore from 'highcharts/highcharts-more';
-import HighchartsReact from 'highcharts-react-official';
-import HighchartsExporting from 'highcharts/modules/exporting';
-import HighchartsAccessibility from 'highcharts/modules/accessibility';
+import dynamic from 'next/dynamic';
 import { Box } from '@mui/material';
 
-HighchartsMore(Highcharts);
-HighchartsExporting(Highcharts);
-HighchartsAccessibility(Highcharts);
+// Dynamically import Highcharts and modules
+const Highcharts = dynamic(() => import('highcharts'), { ssr: false });
+const HighchartsMore = dynamic(() => import('highcharts/highcharts-more'), { ssr: false });
+const HighchartsReact = dynamic(() => import('highcharts-react-official'), { ssr: false });
+const HighchartsExporting = dynamic(() => import('highcharts/modules/exporting'), { ssr: false });
+const HighchartsAccessibility = dynamic(() => import('highcharts/modules/accessibility'), { ssr: false });
 
 const BubbleChart = () => {
     const [isClient, setIsClient] = useState(false);
 
     useEffect(() => {
         setIsClient(true);
-    }, []);
+        if (isClient) {
+            HighchartsMore(Highcharts);
+            HighchartsExporting(Highcharts);
+            HighchartsAccessibility(Highcharts);
+        }
+    }, [isClient]);
 
-    const options = { 
+    const options = {
         chart: {
             type: 'packedbubble',
             height: '100%'
@@ -62,7 +66,7 @@ const BubbleChart = () => {
                 }
             }
         },
-        series: [{ 
+        series: [{
             name: 'Computer Engineering',
             data: [{
                 name: 'Adham Elmosalamy',
@@ -116,8 +120,7 @@ const BubbleChart = () => {
             {
                 name: 'Timothy Joseph',
                 value: 71.1
-            }
-            ]
+            }]
         }, {
             name: 'Computer Science',
             data: [{
@@ -175,15 +178,13 @@ const BubbleChart = () => {
             {
                 name: 'Rithik Rajiv Vaikkat',
                 value: 93.9
-            }
-            ]
+            }]
         }, {
             name: 'Math',
             data: [{
                 name: 'AbdulAziz Mohammad',
                 value: 409.4
-            }
-            ]
+            }]
         }]
     };
 
@@ -192,10 +193,11 @@ const BubbleChart = () => {
     }
 
     return (
-        <Box width={"50vw"}>
-            <HighchartsReact 
+        <Box width={"50vw"} height={"50vh"}> {/* Ensure height is set */}
+            <HighchartsReact
                 highcharts={Highcharts}
                 options={options}
+                constructorType={'chart'}
             />
         </Box>
     );
