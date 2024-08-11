@@ -3,7 +3,7 @@ import Navbar from '@/components/navbar'
 import Hero from '@/components/hero'
 import Upcoming from '@/components/upcoming_events'
 import About from '@/components/about'
-import Members from '@/components/members'
+// import Members from '@/components/members'
 import { Box, Card} from '@mui/material'
 
 
@@ -16,7 +16,7 @@ function main() {
       <Hero />
       <Upcoming />
       <About />
-      <Members />
+      {/* <Members /> */}
     </Box>
   )
 }
