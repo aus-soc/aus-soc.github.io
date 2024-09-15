@@ -67,7 +67,7 @@ function Upcoming_events() {
                                 <div className="badge badge-outline">Fun Tech</div>
                                 <div className="badge badge-outline">Explore SOC</div>
                             </div>
-                            <h2 className="card-title">Club Fair F'24</h2>
+                            <h2 className="card-title">Club Fair F&apos;24</h2>
                             <p>Visit the SOC Booth during Club Fair and dive deep into the world of cybersecurity!</p>
                             <div className="card-actions justify-between py-3">
                             <a href='./clubfairFall24'><button className="btn btn-primary">Learn More!</button></a>
@@ -156,7 +156,7 @@ function Upcoming_events() {
                                 <div className="badge badge-outline">Beginners | Intermediate</div>
                             </div>
                             <h2 className="card-title">Ramadan Nights: Hacking Linux</h2>
-                            <p>Exciting Prizes Alert! Let's explore Linux in a new set of *beginner-friendly, hands-on* challenges...</p>
+                            <p>Exciting Prizes Alert! Let&apos;s explore Linux in a new set of *beginner-friendly, hands-on* challenges...</p>
                             <div className="card-actions justify-between py-3">
                             <a href='./lifeaftercs'><button className="btn btn-primary">Learn More!</button></a>
                             </div>
@@ -176,7 +176,7 @@ function Upcoming_events() {
                                 <div className="badge badge-outline">Beginners | Intermediate</div>
                             </div>
                             <h2 className="card-title">Ramadan Nights: Hacking Linux</h2>
-                            <p>Exciting Prizes Alert! Let's explore Linux in a new set of *beginner-friendly, hands-on* challenges...</p>
+                            <p>Exciting Prizes Alert! Let&apos;s explore Linux in a new set of *beginner-friendly, hands-on* challenges...</p>
                             <div className="card-actions justify-between py-3">
                             <a href='./lifeaftercs'><button className="btn btn-primary">Learn More!</button></a>
                             </div>
