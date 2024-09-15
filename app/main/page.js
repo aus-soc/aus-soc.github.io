@@ -3,6 +3,8 @@ import Navbar from '@/components/navbar'
 import Hero from '@/components/hero'
 import Upcoming from '@/components/upcoming_events'
 import About from '@/components/about'
+import Faq from '@/components/faq'
+import Footer from '@/components/footer'
 // import Members from '@/components/members'
 import { Box, Card} from '@mui/material'
 
@@ -17,6 +19,8 @@ function main() {
       <Upcoming />
       <About />
       {/* <Members /> */}
+      <Faq />
+      <Footer />
     </Box>
   )
 }

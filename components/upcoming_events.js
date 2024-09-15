@@ -53,25 +53,52 @@ function Upcoming_events() {
             </Box>
         <CustomTabPanel value={value} index={0} className="flex justify-center">
             <Box className="flex justify-center items-center w-svw flex-col">
-                <div className="carousel carousel-center bg-gradient-radial from-slate-200 to-white rounded-box w-6/12 space-x-4 p-3 scroll-smooth ">
+                <div className="carousel carousel-center bg-gradient-radial from-slate-200 to-white rounded-box w-11/12 lg:w-6/12 space-x-4 p-3 scroll-smooth ">
                     <div id='item1' className="card carousel-item glass w-96 scroll-smooth">
                         <figure className='h-96'>
                             <Image
-                            src="/lifeafterCS.svg"
+                            src="/clubfairFall24.svg"
                             height={500}
                             width={500}
                             alt="SOC Event" />
                         </figure>
                         <div className="card-body">
                             <div className="card-actions justify-start py-2 ">
-                                <div className="badge badge-outline">Student Life</div>
-                                <div className="badge badge-outline">Tech</div>
+                                <div className="badge badge-outline">Fun Tech</div>
+                                <div className="badge badge-outline">Explore SOC</div>
                             </div>
-                            <h2 className="card-title">Event Name</h2>
-                            <p>Description of this event</p>
+                            <h2 className="card-title">Club Fair F'24</h2>
+                            <p>Visit the SOC Booth during Club Fair and dive deep into the world of cybersecurity!</p>
                             <div className="card-actions justify-between py-3">
-                            <button className="btn btn-primary">Learn More!</button>
+                            <a href='./clubfairFall24'><button className="btn btn-primary">Learn More!</button></a>
                             <button className="btn border-indigo-700 bg-white hover:border-indigo-700 hover:bg-white">Register</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </Box>
+        </CustomTabPanel>
+
+        {/* // Past Events */}
+        <CustomTabPanel value={value} index={1}>
+        <Box className="flex justify-center items-center w-svw flex-col">
+                <div className="carousel carousel-center bg-white rounded-box w-11/12 lg:w-6/12 space-x-4 p-3 scroll-smooth">
+                    <div id='item1' className="card carousel-item glass w-96 scroll-smooth">
+                        <figure className='h-96'>
+                            <Image height={500} width={500}
+                            src="/linux12sept24.jpg"
+                            alt="SOC Event" />
+                        </figure>
+                        <div className="card-body">
+                            <div className="card-actions justify-start py-2 ">
+                                <div className="badge badge-outline">Linux</div>
+                                <div className="badge badge-outline">Beginners</div>
+                            </div>
+                            <h2 className="card-title">The most important skill in IT and Cybersecurity: Linux</h2>
+                            <p>Join us to learn Linux with a hands-on approach. Completely Beginner-friendly!</p>
+                            <div className="card-actions justify-between py-3">
+                            <a href='./lifeaftercs'><button className="btn btn-primary">Learn More!</button></a>
                             </div>
                             
                         </div>
@@ -79,131 +106,38 @@ function Upcoming_events() {
                     <div id='item2' className="card carousel-item glass w-96 scroll-smooth">
                     <figure className='h-96'>
                             <Image height={500} width={500}
+                            src="/lifeafterCS.svg"
+                            alt="SOC Event" />
+                        </figure>
+                        <div className="card-body">
+                            <div className="card-actions justify-start py-2 ">
+                                <div className="badge badge-outline">Student Life</div>
+                                <div className="badge badge-outline">Tech</div>
+                            </div>
+                            <h2 className="card-title">Life After CS</h2>
+                            <p>Thana AlShammari, UAE Cybersecurity specialist speaks about how a CS student can get into the field of cybersecurity</p>
+                            <div className="card-actions justify-between py-3">
+                            <a href='./lifeaftercs'><button className="btn btn-primary">Learn More!</button></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div id='item3' className="card carousel-item glass w-96 scroll-smooth">
+                        <figure className='h-96'>
+                            <Image height={500} width={500}
                             src="/cyberweekly.svg"
-                            alt="syberweekly" />
+                            alt="SOC Event" />
                         </figure>
                         <div className="card-body">
                             <div className="card-actions justify-start py-2 ">
                                 <div className="badge badge-outline">CTFs</div>
-                                <div className="badge badge-outline">Hack the Box</div>
-                                <div className="badge badge-outline">Beginner</div>
+                                <div className="badge badge-outline">Hack The Box</div>
+                                <div className="badge badge-outline">Beginners</div>
                             </div>
-                            <h2 className="card-title">Event Name</h2>
-                            <p>Description of this event</p>
+                            <h2 className="card-title">Cyber Weekly</h2>
+                            <p>Learn free Hands-on Cybersecurity Skills Every weekly Sunday. Practice CTFs and Hack the Box.</p>
                             <div className="card-actions justify-between py-3">
-                            <button className="btn btn-primary">Learn More!</button>
-                            <button className="btn border-indigo-700 bg-white hover:border-indigo-700 hover:bg-white">Register</button>
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <div id='item3' className="card carousel-item glass w-96 scroll-smooth">
-                    <figure className='h-96'>
-                            <Image height={500} width={500}
-                            src="/lifeafterCS.svg"
-                            alt="SOC Event" />
-                        </figure>
-                        <div className="card-body">
-                            <div className="card-actions justify-start py-2 ">
-                                <div className="badge badge-outline">Student Life</div>
-                                <div className="badge badge-outline">Tech</div>
-                            </div>
-                            <h2 className="card-title">Event Name</h2>
-                            <p>Description of this event</p>
-                            <div className="card-actions justify-between py-3">
-                            <button className="btn btn-primary">Learn More!</button>
-                            <button className="btn border-indigo-700 bg-white hover:border-indigo-700 hover:bg-white">Register</button>
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <div id='item4' className="card carousel-item glass w-96 scroll-smooth">
-                    <figure className='h-96'>
-                            <Image height={500} width={500}
-                            src="/cyberweekly.svg"
-                            alt="syberweekly" />
-                        </figure>
-                        <div className="card-body">
-                            <div className="card-actions justify-start py-2 ">
-                            <div className="badge badge-outline">CTFs</div>
-                                <div className="badge badge-outline">Hack the Box</div>
-                                <div className="badge badge-outline">Beginner</div>
-                            </div>
-                            <h2 className="card-title">Event Name</h2>
-                            <p>Description of this event</p>
-                            <div className="card-actions justify-between py-3">
-                            <button className="btn btn-primary">Learn More!</button>
-                            <button className="btn border-indigo-700 bg-white hover:border-indigo-700 hover:bg-white">Register</button>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div className="flex w-full justify-center gap-2 py-2  scroll-smooth">
-                <a href="#item1" className="btn btn-xs radio active:bg-indigo-700 scroll-smooth"></a>
-                <a href="#item2" className="btn btn-xs radio active:bg-indigo-700 scroll-smooth"></a>
-                <a href="#item3" className="btn btn-xs radio active:bg-indigo-700 scroll-smooth"></a>
-                <a href="#item4" className="btn btn-xs radio active:bg-indigo-700 scroll-smooth"></a>
-                </div>
-            </Box>
-        </CustomTabPanel>
-        <CustomTabPanel value={value} index={1}>
-        <Box className="flex justify-center items-center w-svw flex-col">
-                <div className="carousel carousel-center bg-white rounded-box w-6/12 space-x-4 p-3 scroll-smooth">
-                    <div id='item1' className="card carousel-item glass w-96 scroll-smooth">
-                        <figure className='h-96'>
-                            <Image height={500} width={500}
-                            src="/lifeafterCS.svg"
-                            alt="SOC Event" />
-                        </figure>
-                        <div className="card-body">
-                            <div className="card-actions justify-start py-2 ">
-                                <div className="badge badge-outline">Student Life</div>
-                                <div className="badge badge-outline">Tech</div>
-                            </div>
-                            <h2 className="card-title">Event Name</h2>
-                            <p>Description of this event</p>
-                            <div className="card-actions justify-between py-3">
-                            <button className="btn btn-primary">Learn More!</button>
-                            <button className="btn border-indigo-700 bg-white hover:border-indigo-700 hover:bg-white">Register</button>
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <div id='item2' className="card carousel-item glass w-96 scroll-smooth">
-                        <figure className='h-96'>
-                            <Image height={500} width={500}
-                            src="/lifeafterCS.svg"
-                            alt="SOC Event" />
-                        </figure>
-                        <div className="card-body">
-                            <div className="card-actions justify-start py-2 px-5">
-                                <div className="badge badge-outline">Fashion</div>
-                                <div className="badge badge-outline">Products</div>
-                            </div>
-                            <h2 className="card-title">Life hack</h2>
-                            <p>How to park your car at your garage?</p>
-                            <div className="card-actions justify-end">
-                            <button className="btn btn-primary">Learn now!</button>
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <div id='item3' className="card carousel-item glass w-96 scroll-smooth">
-                        <figure className='h-96'>
-                            <Image height={500} width={500}
-                            src="/lifeafterCS.svg"
-                            alt="SOC Event" />
-                        </figure>
-                        <div className="card-body">
-                            <div className="card-actions justify-start py-2 px-5">
-                                <div className="badge badge-outline">Fashion</div>
-                                <div className="badge badge-outline">Products</div>
-                            </div>
-                            <h2 className="card-title">Life hack</h2>
-                            <p>How to park your car at your garage?</p>
-                            <div className="card-actions justify-end">
-                            <button className="btn btn-primary">Learn now!</button>
+                            <a href='./lifeaftercs'><button className="btn btn-primary">Learn More!</button></a>
                             </div>
                             
                         </div>
@@ -211,88 +145,45 @@ function Upcoming_events() {
                     <div id='item4' className="card carousel-item glass w-96 scroll-smooth">
                         <figure className='h-96'>
                             <Image height={500} width={500}
-                            src="/lifeafterCS.svg"
+                            src="/ramadanNightsCTFae.jpg"
+                            className='object-cover'
                             alt="SOC Event" />
                         </figure>
                         <div className="card-body">
-                            <div className="card-actions justify-start py-2 px-5">
-                                <div className="badge badge-outline">Fashion</div>
-                                <div className="badge badge-outline">Products</div>
+                            <div className="card-actions justify-start py-2 ">
+                                <div className="badge badge-outline">CTFs</div>
+                                <div className="badge badge-outline">Linux</div>
+                                <div className="badge badge-outline">Beginners | Intermediate</div>
                             </div>
-                            <h2 className="card-title">Life hack</h2>
-                            <p>How to park your car at your garage?</p>
-                            <div className="card-actions justify-end">
-                            <button className="btn btn-primary">Learn now!</button>
+                            <h2 className="card-title">Ramadan Nights: Hacking Linux</h2>
+                            <p>Exciting Prizes Alert! Let's explore Linux in a new set of *beginner-friendly, hands-on* challenges...</p>
+                            <div className="card-actions justify-between py-3">
+                            <a href='./lifeaftercs'><button className="btn btn-primary">Learn More!</button></a>
                             </div>
                             
                         </div>
                     </div>
                     <div id='item5' className="card carousel-item glass w-96 scroll-smooth">
-                        <figure className='h-96'>
+                        <figure>
                             <Image height={500} width={500}
-                            src="/lifeafterCS.svg"
+                            src="/ramadanNightswebsiteshack.jpg"
                             alt="SOC Event" />
                         </figure>
                         <div className="card-body">
-                            <div className="card-actions justify-start py-2 px-5">
-                                <div className="badge badge-outline">Fashion</div>
-                                <div className="badge badge-outline">Products</div>
+                            <div className="card-actions justify-start py-2 ">
+                                <div className="badge badge-outline">CTFs</div>
+                                <div className="badge badge-outline">Linux</div>
+                                <div className="badge badge-outline">Beginners | Intermediate</div>
                             </div>
-                            <h2 className="card-title">Life hack</h2>
-                            <p>How to park your car at your garage?</p>
-                            <div className="card-actions justify-end">
-                            <button className="btn btn-primary">Learn now!</button>
+                            <h2 className="card-title">Ramadan Nights: Hacking Linux</h2>
+                            <p>Exciting Prizes Alert! Let's explore Linux in a new set of *beginner-friendly, hands-on* challenges...</p>
+                            <div className="card-actions justify-between py-3">
+                            <a href='./lifeaftercs'><button className="btn btn-primary">Learn More!</button></a>
                             </div>
                             
                         </div>
                     </div>
-                    <div id='item6' className="card carousel-item glass w-96 scroll-smooth">
-                        <figure className='h-96'>
-                            <Image height={500} width={500}
-                            src="/lifeafterCS.svg"
-                            alt="SOC Event" />
-                        </figure>
-                        <div className="card-body">
-                            <div className="card-actions justify-start py-2 px-5">
-                                <div className="badge badge-outline">Fashion</div>
-                                <div className="badge badge-outline">Products</div>
-                            </div>
-                            <h2 className="card-title">Life hack</h2>
-                            <p>How to park your car at your garage?</p>
-                            <div className="card-actions justify-end">
-                            <button className="btn btn-primary">Learn now!</button>
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <div id='item7' className="card carousel-item glass w-96 scroll-smooth">
-                        <figure className='h-96'>
-                            <Image height={500} width={500}
-                            src="/lifeafterCS.svg"
-                            alt="SOC Event" />
-                        </figure>
-                        <div className="card-body">
-                            <div className="card-actions justify-start py-2 px-5">
-                                <div className="badge badge-outline">Fashion</div>
-                                <div className="badge badge-outline">Products</div>
-                            </div>
-                            <h2 className="card-title">Life hack</h2>
-                            <p>How to park your car at your garage?</p>
-                            <div className="card-actions justify-end">
-                            <button className="btn btn-primary">Learn now!</button>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div className="flex w-full justify-center gap-2 py-2  scroll-smooth">
-                <a href="#item1" className="btn btn-xs radio active:bg-indigo-700 scroll-smooth"></a>
-                <a href="#item2" className="btn btn-xs radio active:bg-indigo-700 scroll-smooth"></a>
-                <a href="#item3" className="btn btn-xs radio active:bg-indigo-700 scroll-smooth"></a>
-                <a href="#item4" className="btn btn-xs radio active:bg-indigo-700 scroll-smooth"></a>
-                <a href="#item5" className="btn btn-xs radio active:bg-indigo-700 scroll-smooth"></a>
-                <a href="#item6" className="btn btn-xs radio active:bg-indigo-700 scroll-smooth"></a>
-                <a href="#item7" className="btn btn-xs radio active:bg-indigo-700 scroll-smooth"></a>
+                    
                 </div>
             </Box>
         </CustomTabPanel>
