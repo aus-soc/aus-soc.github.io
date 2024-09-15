@@ -32,7 +32,7 @@ function Hero() {
 
         {/* Image Section */}
         <Box className="w-72 md:w-96">
-          <Image src='/SocLogo.svg' width={500} height={500} className="object-contain" />
+          <Image src='/SocLogo.svg' width={500} height={500} className="object-contain" alt='soc logo' />
         </Box>
 
       </Box>

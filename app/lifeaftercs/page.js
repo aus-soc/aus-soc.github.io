@@ -8,7 +8,7 @@ function lifeaftercs() {
     <Box width="100vw" height="100vh" gap={5} className="bg-white overflow-x-hidden">
       <NavbarInner />
       <Box className="w-full h-72 relative">
-        <Image src={'lifeafterCS.svg'} fill className="object-cover object-center" />
+        <Image src={'lifeafterCS.svg'} fill className="object-cover object-center" alt='life after cs'/>
       </Box>
 
       <Box className="flex flex-col lg:flex-row justify-center items-center gap-10 my-10 px-5">
@@ -34,7 +34,7 @@ function lifeaftercs() {
         </Box>
 
         <Box className="lg:w-1/3 w-full">
-          <Image src={'lifeafterCS.svg'} height={400} width={400} layout="responsive" />
+          <Image src={'lifeafterCS.svg'} height={400} width={400} layout="responsive" alt='life after cs' />
         </Box>
       </Box>
 

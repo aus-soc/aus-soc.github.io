@@ -33,43 +33,21 @@ function firesideDeadpackets() {
                 </Typography>
             </Box>
             <Box>
-                {/* <Image src={'firesideDeadpackets.svg'} height={400} width={400} layout='responsive'></Image> */}
+                {/* <Image src={'firesideDeadpackets.svg'} height={400} width={400} layout='responsive' alt='Deadpackets fireside'></Image> */}
             </Box>
         </Box>
         <Box className='flex flex-col justify-center items-center gap-x-10 my-10'>
             <Typography variant='h3' className='text-left font-bold font-sans'>Speakers</Typography>
-            <ImageList cols={4} gap={10}>
-                <ImageListItem>
-                    <Image src={'SocLogo.svg'} height={100} width={100} layout='responsive'></Image>
-                    <ImageListItemBar title="Speaker 1" subtitle="Subtitle" actionIcon={ <InfoIcon></InfoIcon> }/>
-                </ImageListItem>
-                <ImageListItem>
-                    <Image src={'SocLogo.svg'} height={100} width={100} layout='responsive'></Image>
-                    <ImageListItemBar title="Speaker 2" subtitle="Subtitle" />
-                </ImageListItem>
-                <ImageListItem>
-                    <Image src={'SocLogo.svg'} height={100} width={100} layout='responsive'></Image>
-                    <ImageListItemBar title="Speaker 2" subtitle="Subtitle" />
-                </ImageListItem>
-                <ImageListItem>
-                    <Image src={'SocLogo.svg'} height={100} width={100} layout='responsive'></Image>
-                    <ImageListItemBar title="Speaker 2" subtitle="Subtitle" />
-                </ImageListItem>
-                <ImageListItem>
-                    <Image src={'SocLogo.svg'} height={100} width={100} layout='responsive'></Image>
-                    <ImageListItemBar title="Speaker 2" subtitle="Subtitle" />
-                </ImageListItem>
-            </ImageList>
         </Box>
         <Box className='flex flex-col justify-center items-center gap-x-10 my-10'>
             <Typography variant='h4' className='text-left font-bold font-sans'>Joined Participants</Typography>
             <AvatarGroup max={4}>
-                <Avatar alt="Adham" src="/speaker1.jpg" />
-                <Avatar alt="Hassan" src="/speaker2.jpg" />
-                <Avatar alt="Omar" src="/speaker3.jpg" />
-                <Avatar alt="Ahmad" src="/speaker4.jpg" />
-                <Avatar alt="Someone1" src="/speaker5.jpg" />
-                <Avatar alt="Someone2" src="/speaker6.jpg" />
+                <Avatar alt="Adham" />
+                <Avatar alt="Hassan" />
+                <Avatar alt="Omar" />
+                <Avatar alt="Ahmad" />
+                <Avatar alt="Someone1" />
+                <Avatar alt="Someone2" />
             </AvatarGroup>
         </Box>
     </Box>

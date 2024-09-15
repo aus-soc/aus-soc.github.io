@@ -13,7 +13,7 @@ function about() {
                 </p>
             </Box>
             <Box className='w-fit lg:w-6/12'>
-                <Image src={'/socpic.png'} width={1440} height={810} layout='responsive' className='rounded-lg flex items-center '></Image>
+                <Image src={'/socpic.png'} alt='soc team' width={1440} height={810} layout='responsive' className='rounded-lg flex items-center '></Image>
             </Box>
         </Box>
     </Box>

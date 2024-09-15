@@ -8,12 +8,12 @@ function clubfairF24() {
         <Box width="100vw" height="100vh" gap={5} className="bg-white overflow-x-hidden">
           <NavbarInner />
           <Box className="w-full h-72 relative">
-            <Image src={'clubfairFall24.svg'} fill className="object-cover object-center" />
+            <Image src={'clubfairFall24.svg'} fill className="object-cover object-center" alt='Club Fair Fall 2024' />
           </Box>
     
           <Box className="flex flex-col lg:flex-row justify-center items-center gap-10 my-10 px-5">
             <Box className="lg:w-1/3 w-full">
-              <Typography variant="h3" className="font-bold font-sans text-black pt-5 text-center lg:text-left">Club Fair Fall '24</Typography>
+              <Typography variant="h3" className="font-bold font-sans text-black pt-5 text-center lg:text-left">Club Fair Fall &apos;24</Typography>
               <Typography className="pb-5 pt-5 text-center text-slate-800 lg:text-left">
                 <b>📅 &nbsp;Date :</b> 17th & 18th Sept 2024, Tue | Wed <br />
                 <b>⌛ &nbsp;Time :</b> 10:00 - 4:00 pm <br />
@@ -34,7 +34,7 @@ function clubfairF24() {
             </Box>
     
             <Box className="lg:w-1/3 w-full">
-              <Image src={'clubfairFall24.svg'} height={400} width={400} layout="responsive" />
+              <Image src={'clubfairFall24.svg'} height={400} width={400} layout="responsive" alt='Club Fair Fall 2024' />
             </Box>
           </Box>
     

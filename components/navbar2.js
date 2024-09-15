@@ -23,7 +23,7 @@ function NavbarInner() {
 
             {/* Burger menu for smaller screens */}
             <div className="lg:hidden flex justify-between items-center px-4 py-4">
-                <Image src={'SocLogo.svg'} height={30} width={30} />
+                <Image src={'SocLogo.svg'} height={30} width={30} alt='soc logo'/>
                 <button className="text-white" onClick={toggleMenu}>
                     <span className="material-icons">{isOpen ? 'close' : 'menu'}</span>
                 </button>
